@@ -30,5 +30,5 @@ app.get('/restaurants/:restaurant_id', (req, res) => {
 })
 
 app.listen(port, () => {
-  console.log('hw')
+  console.log(`Listening on http://localhost:${port}`)
 })
